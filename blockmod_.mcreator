@@ -3,7 +3,6 @@
     {
       "name": "EletricFurnace",
       "type": "block",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eletric_furnace",
@@ -20,7 +19,6 @@
     {
       "name": "ElectikFurnaceGUI",
       "type": "gui",
-      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "electik_furnace_gui",
