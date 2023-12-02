@@ -1,0 +1,46 @@
+{
+  "mod_elements": [
+    {
+      "name": "H",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "h",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blockmod_/advancements/h.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.h.title": "H",
+      "advancements.h.descr": "h"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "blockmod_",
+    "modName": "BLOCKMOD_1.0",
+    "version": "1.0.0",
+    "author": "Petr, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "blockmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
