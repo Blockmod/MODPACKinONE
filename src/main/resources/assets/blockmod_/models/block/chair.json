@@ -1,9 +1,0 @@
-{
-  "parent": "blockmod_:custom/chair",
-  "textures": {
-    "all": "blockmod_:block/chair",
-    "particle": "blockmod_:block/chair",
-    "2": "blockmod_:block/chair"
-  },
-  "render_type": "solid"
-}
