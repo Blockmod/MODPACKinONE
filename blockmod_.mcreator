@@ -3,6 +3,7 @@
     {
       "name": "H",
       "type": "achievement",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "h",
@@ -11,13 +12,28 @@
           "src/main/resources/data/blockmod_/advancements/h.json"
         ]
       }
+    },
+    {
+      "name": "Pop",
+      "type": "achievement",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blockmod_/advancements/pop.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "advancements.pop.title": "Pop",
       "advancements.h.title": "H",
+      "advancements.pop.descr": "dedede",
       "advancements.h.descr": "h"
     }
   },
