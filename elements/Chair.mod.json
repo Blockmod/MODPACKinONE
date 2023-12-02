@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "model:default",
+    "customModelName": "chair:default",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
