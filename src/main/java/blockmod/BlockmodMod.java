@@ -38,6 +38,11 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
+import blockmod.init.BlockmodModMenus;
+import blockmod.init.BlockmodModItems;
+import blockmod.init.BlockmodModBlocks;
+import blockmod.init.BlockmodModBlockEntities;
+
 @Mod("blockmod_")
 public class BlockmodMod {
 	public static final Logger LOGGER = LogManager.getLogger(BlockmodMod.class);
@@ -47,6 +52,11 @@ public class BlockmodMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		BlockmodModBlocks.REGISTRY.register(bus);
+		BlockmodModBlockEntities.REGISTRY.register(bus);
+		BlockmodModItems.REGISTRY.register(bus);
+
+		BlockmodModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "blockmod_:block/ef_top",
+    "up": "blockmod_:block/ef_top",
+    "north": "blockmod_:block/ef_front",
+    "east": "blockmod_:block/ef_right",
+    "south": "blockmod_:block/ef_back",
+    "west": "blockmod_:block/ef_left",
+    "particle": "blockmod_:block/ef_top"
+  },
+  "render_type": "solid"
+}

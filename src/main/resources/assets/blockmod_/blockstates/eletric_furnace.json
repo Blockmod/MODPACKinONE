@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "blockmod_:block/eletric_furnace"
+    },
+    "facing=east": {
+      "model": "blockmod_:block/eletric_furnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "blockmod_:block/eletric_furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "blockmod_:block/eletric_furnace",
+      "y": 270
+    }
+  }
+}

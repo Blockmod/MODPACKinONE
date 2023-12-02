@@ -1,9 +1,41 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "EletricFurnace",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eletric_furnace",
+      "metadata": {
+        "files": [
+          "src/main/java/blockmod/block/EletricFurnaceBlock.java",
+          "src/main/java/blockmod/block/entity/EletricFurnaceBlockEntity.java",
+          "src/main/resources/assets/blockmod_/models/item/eletric_furnace.json",
+          "src/main/resources/assets/blockmod_/blockstates/eletric_furnace.json",
+          "src/main/resources/assets/blockmod_/models/block/eletric_furnace.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectikFurnaceGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electik_furnace_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/blockmod/world/inventory/ElectikFurnaceGUIMenu.java",
+          "src/main/java/blockmod/client/gui/ElectikFurnaceGUIScreen.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.blockmod_.eletric_furnace": "Eletric Furnace"
+    }
   },
   "foldersRoot": {
     "name": "~",
