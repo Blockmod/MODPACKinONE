@@ -28,14 +28,27 @@
           "src/main/java/blockmod/client/gui/ElectikFurnaceGUIScreen.java"
         ]
       }
+    },
+    {
+      "name": "Chair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blockmod_/blockstates/chair.json",
+          "src/main/resources/assets/blockmod_/models/item/chair.json",
+          "src/main/resources/assets/blockmod_/models/block/chair.json",
+          "src/main/java/blockmod/block/ChairBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "block.blockmod_.eletric_furnace": "Eletric Furnace"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",

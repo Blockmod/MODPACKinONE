@@ -11,10 +11,12 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import blockmod.block.EletricFurnaceBlock;
+import blockmod.block.ChairBlock;
 
 import blockmod.BlockmodMod;
 
 public class BlockmodModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, BlockmodMod.MODID);
+	public static final RegistryObject<Block> CHAIR = REGISTRY.register("chair", () -> new ChairBlock());
 	public static final RegistryObject<Block> ELETRIC_FURNACE = REGISTRY.register("eletric_furnace", () -> new EletricFurnaceBlock());
 }

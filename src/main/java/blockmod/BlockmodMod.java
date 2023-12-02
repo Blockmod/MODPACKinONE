@@ -38,6 +38,7 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
+import blockmod.init.BlockmodModTabs;
 import blockmod.init.BlockmodModMenus;
 import blockmod.init.BlockmodModItems;
 import blockmod.init.BlockmodModBlocks;
@@ -55,6 +56,8 @@ public class BlockmodMod {
 		BlockmodModBlocks.REGISTRY.register(bus);
 		BlockmodModBlockEntities.REGISTRY.register(bus);
 		BlockmodModItems.REGISTRY.register(bus);
+
+		BlockmodModTabs.REGISTRY.register(bus);
 
 		BlockmodModMenus.REGISTRY.register(bus);
 	}
