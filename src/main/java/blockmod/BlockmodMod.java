@@ -38,6 +38,10 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
+import blockmod.init.BlockmodModTabs;
+import blockmod.init.BlockmodModItems;
+import blockmod.init.BlockmodModBlocks;
+
 @Mod("blockmod_")
 public class BlockmodMod {
 	public static final Logger LOGGER = LogManager.getLogger(BlockmodMod.class);
@@ -46,6 +50,12 @@ public class BlockmodMod {
 	public BlockmodMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		BlockmodModBlocks.REGISTRY.register(bus);
+
+		BlockmodModItems.REGISTRY.register(bus);
+
+		BlockmodModTabs.REGISTRY.register(bus);
 
 	}
 

@@ -1,0 +1,11 @@
+{
+  "parent": "blockmod_:custom/model",
+  "textures": {
+    "all": "blockmod_:block/chair",
+    "particle": "blockmod_:block/chair",
+    "0": "blockmod_:block/",
+    "3": "blockmod_:block/",
+    "missing": "blockmod_:block/"
+  },
+  "render_type": "solid"
+}

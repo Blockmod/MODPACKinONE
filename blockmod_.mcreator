@@ -1,9 +1,27 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Chair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blockmod_/models/item/chair.json",
+          "src/main/java/blockmod/block/ChairBlock.java",
+          "src/main/resources/assets/blockmod_/blockstates/chair.json",
+          "src/main/resources/assets/blockmod_/models/block/chair.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.blockmod_.chair": "Chair"
+    }
   },
   "foldersRoot": {
     "name": "~",
